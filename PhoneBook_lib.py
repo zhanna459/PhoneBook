@@ -10,15 +10,18 @@ def input_data():
     temp.append(address)
     return temp
 
+
 def welcome():
-    print("********")
-    print("PhoneBook - телефонный справочник")
-    print("********")
+    print("*******")
+    print("*** PhoneBook - телефонный справочник ***")
+    print("*******")
+
 
 def menu():
-    print("Режим работы:")
+    print("Режимы работы:")
     print("1. Показать все записи")
     print("2. Добавить запись")
     print("3. Редактировать запись")
     print("4. Удалить запись")
     print("0. Выход")
+
